@@ -3,6 +3,16 @@ package com.devsuperior.dsmeta.dto;
 import java.time.LocalDate;
 
 import com.devsuperior.dsmeta.entities.Sale;
+/**
+ * <h1> DEVSUPERIOR - Java Spring Professional - Capítulo: JPA, consultas SQL e JPQL</h1>
+ * DESAFIO: Consulta vendas
+ * <p>
+ * <b>Note:</b> Desenvolvido na linguagem Java.
+ *
+ * @author  Marcos Ferreira Shirafuchi
+ * @version 1.0
+ * @since   18/07/2024
+ */
 
 public class SaleMinDTO {
 
@@ -22,6 +32,7 @@ public class SaleMinDTO {
 		date = entity.getDate();
 	}
 
+
 	public Long getId() {
 		return id;
 	}
@@ -33,4 +44,6 @@ public class SaleMinDTO {
 	public LocalDate getDate() {
 		return date;
 	}
+
+
 }

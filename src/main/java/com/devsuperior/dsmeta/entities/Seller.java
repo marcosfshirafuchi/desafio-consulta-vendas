@@ -10,6 +10,17 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+/**
+ * <h1> DEVSUPERIOR - Java Spring Professional - Capítulo: JPA, consultas SQL e JPQL</h1>
+ * DESAFIO: Consulta vendas
+ * <p>
+ * <b>Note:</b> Desenvolvido na linguagem Java.
+ *
+ * @author  Marcos Ferreira Shirafuchi
+ * @version 1.0
+ * @since   18/07/2024
+ */
+
 @Entity
 @Table(name = "tb_seller")
 public class Seller {
